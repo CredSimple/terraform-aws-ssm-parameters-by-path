@@ -6,7 +6,7 @@ This module allows you to retrieve all parameters from a given path in AWS SSM P
 
 ```hcl
 module "ssm_parameters" {
-  source = "github.com/terraform-community-modules/tf_aws_ssm_parameters_by_path"
+  source = "github.com/credsimple/terraform-aws-ssm-parameters-by-path"
 
   path = "/myapp"
 }

@@ -44,7 +44,11 @@ Note that this example may create resources which will incur monetary charges on
 | [aws_ssm_parameter.alist](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
 | [aws_ssm_parameter.name](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
 | [aws_ssm_parameter.other](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ssm_parameter) | resource |
-| [local_file.example](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
+| [local_file.example_arns](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
+| [local_file.example_names](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
+| [local_file.example_params](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
+| [local_file.example_types](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
+| [local_file.example_values](https://registry.terraform.io/providers/hashicorp/local/2.3.0/docs/resources/file) | resource |
 
 ## Inputs
 

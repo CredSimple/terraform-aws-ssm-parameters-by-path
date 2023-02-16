@@ -56,7 +56,11 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_arns"></a> [arns](#output\_arns) | A map of SSM parameter ARNs with the key being the parameter name (optionally with the path prefix stripped) and the value being the parameter's ARN. |
+| <a name="output_names"></a> [names](#output\_names) | A map of SSM parameter names with the key being the parameter name (optionally with the path prefix stripped) and the value being the parameter's name. |
 | <a name="output_parameters"></a> [parameters](#output\_parameters) | A map of SSM parameters with the key being the parameter name (optionally with the path prefix stripped) and the value being a map of the parameter's attributes. |
+| <a name="output_types"></a> [types](#output\_types) | A map of SSM parameter types with the key being the parameter name (optionally with the path prefix stripped) and the value being the parameter's type. |
+| <a name="output_values"></a> [values](#output\_values) | A map of SSM parameter values with the key being the parameter name (optionally with the path prefix stripped) and the value being the parameter's value. |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 <!-- markdownlint-restore -->
 ## Authors
